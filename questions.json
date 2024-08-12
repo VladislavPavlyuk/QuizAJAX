@@ -1,0 +1,103 @@
+[
+  {
+    "question": "1. What is JavaScript?",
+    "options": [
+      "JavaScript is a versatile programming language commonly used in software development to create interactive effects within web browsers.",
+      "JavaScript is a versatile programming language commonly used in frontend development to create interactive effects within web browsers.",
+      "JavaScript is a versatile programming language commonly used in backend development to create interactive effects within web browsers.",
+      "JavaScript is a versatile programming language commonly used in web development to create interactive effects within web browsers.",
+      "None of above options"],
+    "answer": "JavaScript is a versatile programming language commonly used in web development to create interactive effects within web browsers."
+  },
+  {
+    "question": "2. Explain the difference between '==' and '===' in JavaScript.",
+    "options": [
+      "'==' checks for equality of value, while '===' checks for equality of type.", 
+      "'==' checks for equality of value, while '===' checks for equality of value.", 
+      "'==' checks for equality of value, while '===' checks for equality of both value and type.", 
+      "None of above options"
+  ],
+    "answer": "'==' checks for equality of value, while '===' checks for equality of both value and type."
+  },
+  {
+    "question": "3. What is a closure in JavaScript?",
+    "options": [
+     "A closure is a function that retains access to its lexical scope, even when the function is executed outside that scope.",
+     "A closure is a function that retains access to its lexical scope, even when the function is executed inside that scope.", 
+     "A closure isn't a function that retains access to its lexical scope, even when the function is executed outside that scope.", 
+     "A closure isn't a function that retains access to its lexical scope, even when the function is executed inside that scope.",
+      "None of above options"],
+    "answer": "A closure is a function that retains access to its lexical scope, even when the function is executed outside that scope."
+  },
+  {
+    "question": "4. How do you create an object in JavaScript?",
+    "options": [
+      "You can create an object using object literal syntax: var obj[] = {}; or using the Object constructor: var obj[] = new Object();", 
+      "You can create an object using object literal syntax: var obj = {}; or using the Object constructor: var obj = new Object();", 
+      "You can create an object using object literal syntax: var obj = []; or using the Object constructor: var obj = new[] Object();", 
+      "You can create an object using object literal syntax: var obj = []; or using the Object constructor: var obj = new Object[];",
+      "None of above options"],
+    "answer": "You can create an object using object literal syntax: var obj = {}; or using the Object constructor: var obj = new Object();"
+  },
+  {
+    "question": "5. What is the purpose of the 'this' keyword in JavaScript?",
+    "options": [
+      "'this' refers to the instanse from which the function was called.",
+      "'this' refers to the class from which the function was called.", 
+      "'this' refers to the object from which the function wasn't called.",
+      "'this' refers to the object from which the function was called.",
+      "None of above options"],
+    "answer": "'this' refers to the object from which the function was called."
+  },
+  {
+    "question": "6. What is an IIFE (Immediately Invoked Function Expression)?",
+    "options": [
+      "An IIFE is a function that runs as soon as it is defined. It is often used to create a public scope for variables.",
+      "An IIFE is a function that runs as soon as it is defined. It is often used to create a protected scope for variables.",
+      "An IIFE is a function that runs as soon as it is defined. It is often used to create a private scope for variables.",
+      "An IIFE is a function that runs as soon as it is defined. It is often used to create a abstract scope for variables.",
+      "None of above options"],
+    "answer": "An IIFE is a function that runs as soon as it is defined. It is often used to create a private scope for variables."
+  },
+  {
+    "question": "7. Explain the concept of 'hoisting' in JavaScript.",
+    "options": [
+      "Hoisting is JavaScript's default behavior of moving declarations to the bottom of the current scope.",
+      "Hoisting is JavaScript's default behavior of moving declarations to the top of the current scope.",
+      "Hoisting is JavaScript's default behavior of moving variables to the top of the current scope.",
+      "Hoisting is JavaScript's default behavior of moving declarations to the top of the previus scope.",
+      "None of above options"],
+    "answer": "Hoisting is JavaScript's default behavior of moving declarations to the top of the current scope."
+  },
+  {
+    "question": "8. What are Promises in JavaScript?",
+    "options": [
+      "Promises are objects that represent the eventual completion (or failure) of an asynchronous operation and its resulting value.",
+      "Promises are objects that represent the eventual completion (or failure) of an asynchronous operation and its resulting variable.",
+      "Promises are instanses that represent the eventual completion (or failure) of an asynchronous operation and its resulting value.",
+      "Promises are objects that represent the eventual completion of an asynchronous operation and its resulting value.",
+      "None of above options"],
+    "answer": "Promises are objects that represent the eventual completion (or failure) of an asynchronous operation and its resulting value."
+  },
+  {
+    "question": "9. How can you handle errors in JavaScript?",
+    "options": [
+      "Errors can be handled using try...catch blocks.", 
+      "Errors can be handled using try...catch blocks, or by using the .catch() method.",
+      "Errors can be handled using try...catch blocks, or by using the .catch() method without Promises.",
+      "Errors can be handled using try...catch blocks, or by using the .catch() method with Promises.",
+      "None of above options"],
+    "answer": "Errors can be handled using try...catch blocks, or by using the .catch() method with Promises."
+  },
+  {
+    "question": "10. What is the difference between 'let' and 'var'?",
+    "options": [
+      "'let' is block-scoped and 'var' is function-scoped. 'let' also allow re-declaration within the same scope.",
+      "'let' is function-scoped and 'var' is block-scoped. 'let' also does not allow re-declaration within the same scope.",
+      "'let' is block-scoped and 'var' is function-scoped. 'let' also does not allow re-declaration within the same scope.",
+      "'let' is block-scoped and 'var' is function-scoped. 'let' also does not allow re-declaration without the same scope.",
+      "None of above options"],
+    "answer": "'let' is block-scoped and 'var' is function-scoped. 'let' also does not allow re-declaration within the same scope."
+  }
+]
+
